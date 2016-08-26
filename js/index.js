@@ -3,6 +3,8 @@ function toRed() {
 	$('.box').css('border-bottom', '1px solid #E71D36');
 	$('#input1').attr('placeholder', 'RGB');
 	$('#input2').attr('placeholder', 'HEX');
+	$('#input1').val('');
+	$('#input2').val('');
 }
 
 function toGreen() {
@@ -10,6 +12,8 @@ function toGreen() {
 	$('.box').css('border-bottom', '1px solid #2EC4B6');
 	$('#input1').attr('placeholder', 'HEX');
 	$('#input2').attr('placeholder', 'RGB');
+	$('#input1').val('');
+	$('#input2').val('');
 }
 
 //十六进制颜色值域RGB格式颜色值之间的相互转换  
