@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-family: "微软雅黑";
+}
+
+.body {
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 6px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.btn1,
+.btn2 {
+	display: inline-block;
+	width: 200px;
+	background-color: dodgerblue;
+	text-align: center;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	vertical-align: middle;
+	color: #EFFFE9;
+	cursor: pointer;
+}
+
+.btn1 {
+	background-color: #E71D36;
+	border-top-left-radius: 6px;
+}
+
+.btn2 {
+	background-color: #2EC4B6;
+	border-top-right-radius: 6px;
+}
+
+.box {
+	width: 359px;
+	display: inline-block;
+	float: left;
+	border-left: 1px solid #1E90FF;
+	border-bottom: 1px solid #1E90FF;
+}
+
+.box input {
+	width: 200px;
+	margin: 0 auto;
+	height: 24px;
+	display: block;
+	text-indent: 8px;
+}
+
+#input1 {
+	margin-top: 10px;
+}
+
+#input2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	display: inline-block;
+}
+
+.btn button {
+	width: 40px;
+	height: 87px;
+	background-color: #1E90FF;
+	border: 1px solid #1E90FF;
+	color: #ffffff;
+	word-wrap: break-word;
+	font-size: 18px;
+	padding: 6px;
+	cursor: pointer;
+}
+
+.btn button:hover {
+	background-color: #FFFFFF;
+	color: #1E90FF;
+}
+.bgc{
+	margin-top: 40px;
+	width: 400px;
+	height: 40px;
+}
